@@ -7,6 +7,6 @@ export async function getRecipe() {
     throw new Error(response.status);
   }
 
-  const data = response.json;
+  const data = await response.json();
   return data;
 }
