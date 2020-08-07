@@ -8,5 +8,6 @@ export async function getRecipe() {
   }
 
   const data = await response.json();
-  return data;
+  console.log(data.meals[0]);
+  return data.meals[0];
 }
