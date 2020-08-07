@@ -1,4 +1,4 @@
-/* import "./global.css"; */
+import "./global.css";
 import { createFetchButton } from "./components/fetchButton";
 import { getRecipe } from "./api/mealDB";
 import { createCard } from "./components/card";
