@@ -1,0 +1,39 @@
+.btnFetch {
+  background-color: #855d6a;
+  border-radius: 50%;
+  padding: 0.8rem 1.5rem;
+  border-style: none;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  margin: 30px 0 20px 60px;
+}
+
+.card {
+  border-radius: 10.3%;
+  width: 300px;
+  /* height: 361px; */
+  /* border: solid 5px black; */
+  background-color: beige;
+  margin: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 0 0 10% 10%;
+}
+
+.card > h3 {
+  padding: 0 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: space-around;
+}
